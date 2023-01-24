@@ -24,7 +24,7 @@ def main():
     col2.metric("Wind", "9 mph", "-8%")
     col3.metric("Humidity", "76%", "4%")
     tab1, tab2 = st.tabs(["📈 Chart", "🗃 Data"])
-    data = pd.read_csv('C:/Users/mdhami/Desktop/Advantech.csv')
+    data = pd.read_csv('Advantech.csv')
     #data = np.random.randn(10, 1)
     
     tab1.subheader("A tab with a temperature chart")
